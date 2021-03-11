@@ -3,6 +3,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+'''
+Created By: Ryan Hong
+March 2021
+Open-Source - Have fun :)
+
+'''
+
 # open login page for Fit4Less
 browser = webdriver.Chrome()
 browser.get(('https://myfit4less.gymmanager.com/portal/login.asp'))
