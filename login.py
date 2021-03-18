@@ -17,8 +17,8 @@ browser = webdriver.Chrome(chrome_options=options)
 browser.get(('https://myfit4less.gymmanager.com/portal/login.asp'))
 
 # username and password --> change to your credentials
-usernameStr = 'jodi.hong@hotmail.com'
-passwordStr = 'happy1022'
+usernameStr = 'Your email here'
+passwordStr = 'Your password here'
 
 username = browser.find_element_by_id('emailaddress')
 username.send_keys(usernameStr)
