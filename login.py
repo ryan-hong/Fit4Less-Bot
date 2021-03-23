@@ -16,7 +16,7 @@ Open-Source - Have fun :)
 options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")
 browser = webdriver.Chrome(
-    executable_path=r'your chromedrive.exe path here', options=options)
+    executable_path=r'your chromedriver.exe path here', options=options)
 browser.get(('https://myfit4less.gymmanager.com/portal/login.asp'))
 
 # username and password --> change to your credentials
