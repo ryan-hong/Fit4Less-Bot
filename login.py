@@ -37,7 +37,7 @@ browser.implicitly_wait(5)
 
 # get current date + 3 to book time 3 days in advance
 now = datetime.now().date()
-td = timedelta(days=2)
+td = timedelta(days=3)
 # convert datetime object to string
 future = (now + td).strftime("%Y-%m-%d")
 # format properly to match how web browser takes in date
