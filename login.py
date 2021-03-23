@@ -15,13 +15,15 @@ Open-Source - Have fun :)
 # open login page for Fit4Less in max screen size
 options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")
-browser = webdriver.Chrome(options=options)
+browser = webdriver.Chrome(
+    executable_path=r'your chromedrive.exe path here', options=options)
 browser.get(('https://myfit4less.gymmanager.com/portal/login.asp'))
 
 # username and password --> change to your credentials
 usernameStr = 'Your email here'
 passwordStr = 'Your password here'
 
+# no try-except-finally block for login, so make sure your credentials are correct
 username = browser.find_element_by_id('emailaddress')
 username.send_keys(usernameStr)
 
