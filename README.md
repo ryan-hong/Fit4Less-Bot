@@ -6,11 +6,13 @@ Now has never been a better time to create a bot that automates the booking proc
 
 This is a bot using Python and Selenium to automate the time-slot booking process. **It should be noted that the main purpose of this bot is to book the same workout time for every 2 days (since F4L only allows maximum of 2 time bookings). This bot should not be used if you plan to workout at different times throughout the week.**
 
-Install selenium module
-
-Install chromedriver, make sure it is in same directory as python script
-
 Have fun.
+
+# How to setup script
+
+First, pip install selenium
+
+Then download chromedriver, make sure it is in same directory as python script, if you git clone, then just replace the existing chromedriver.exe in the directory
 
 # How to setup auto run on Windows
 
