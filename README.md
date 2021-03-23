@@ -22,7 +22,7 @@ If the browser pops up, and you see corresponding messages in console, then the 
 
 Once everything works manually follow the steps below to setup automatic script run (Windows only):
 
-###### Step 1: Create Batch File to Run Python Script
+#### Step 1: Create Batch File to Run Python Script
 
 Open a notepad and fill in the following
 
@@ -35,7 +35,7 @@ Save the notepad as a **.bat** file - something like "run_login.bat" and save to
 
 To verify this works, double-click your .bat file (in whichever directory you saved it in) and the script should run - If not, make sure your paths are correct
 
-###### Step 2: Schedule using Windows Task Scheduler
+#### Step 2: Schedule using Windows Task Scheduler
 
 Open windows start menu, and search for Task Scheduler
 
@@ -57,7 +57,7 @@ Insert path of your .bat file, click next
 
 Verify task details, click finish
 
-###### Step 3: Optional
+#### Step 3: Optional
 
 If you don't plan on being near the computer or the computer may be in sleep mode you can set the task to wake your PC up to start the task
 
