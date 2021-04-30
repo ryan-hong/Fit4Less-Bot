@@ -65,7 +65,7 @@ Verify task details, click finish
 
 If you don't plan on being near the computer or the computer may be in sleep mode you can set the task to wake your PC up to start the task
 
-Simple navigate to your task in Task Scheduler, double click it
+Simply navigate to your task in Task Scheduler, double click it
 
 Go over to the "Conditions" tab and check the "Wake the computer to run this task" box
 
